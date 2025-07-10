@@ -20,7 +20,7 @@ def plot_bloch_spheres(state, title_prefix):
         b.add_vectors(bloch_vec)
         b.title = f"{title_prefix} Qubit {i}"
         b.render()
-        b.save("ER11R.jpg")
+        b.save("ERR.jpg")
 
 # Step 1: Initial state (|0000>)
 qc = QuantumCircuit(4)
