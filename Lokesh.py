@@ -30,6 +30,8 @@ hist = plot_histogram(counts)
 # This makes the histogram visible in Jupyter
 hist
 hist.savefig("histogram.png")
+print("hist created")
 # Draw the circuit as the last cell output
 circuit_diagram = qc.draw('mpl')
 circuit_diagram.savefig("circuit_diagram.png")
+print("circuit created")
